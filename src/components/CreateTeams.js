@@ -86,9 +86,9 @@ export const CreateTeams = (props) => {
         {players.map((player,index)=> {
             return(
                 <div>
-                    <label htmlFor={player.name}>{player.name}</label>
-                    <label htmlFor={player.name}>{player.power}</label>
-                    <input type="checkbox" id={player.name} onChange={changeCounter} key={index}/>
+                    <label htmlFor={player.FirstName}>{player.FirstName}{player.LastName}</label>
+                    <label htmlFor={player.FirstName}>{player.Strength}</label>
+                    <input type="checkbox" id={player.FirstName} onChange={changeCounter} key={index}/>
                 </div>
             )
         })}
