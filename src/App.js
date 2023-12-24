@@ -51,6 +51,7 @@ const App = () => {
     <div className='container'>
       <Header />
       {console.log(players)}
+      {console.log(${{ env.TEST_ENV_VAR }})}
       <CreateTeams allPlayers = {players}/>
       <ManagePlayers allPlayers = {players}/>
     </div>
