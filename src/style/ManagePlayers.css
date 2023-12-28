@@ -1,0 +1,84 @@
+.resultsContainer{
+    width:50%;
+    display: flex;
+}
+
+.strengthValue{
+    background-color: transparent;
+    width: 50px;
+    margin: 5px;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+}
+
+.inputsContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputField{
+    width: 20%;
+    height: 20px;
+    text-align: center;
+    margin: 5px;
+    font-size: large;
+    border: 3px solid rgb(8, 13, 180);
+    border-radius: 5px;
+}
+
+.innerItem{
+    display: flex;
+    justify-content: center;
+}
+
+.deleteButton{
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+.imageSize{
+    width: 25px;
+    height: 25px;
+}
+
+/* CSS */
+.button-36 {
+  background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  height: 50px;
+  padding: 0 1.6rem;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all .5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin: 20px;
+}
+
+.button-36:hover {
+  box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+  transition-duration: .1s;
+}
+
+@media (min-width: 768px) {
+  .button-36 {
+    padding: 0 2.6rem;
+  }
+}
+
+.linkButton{
+    text-decoration: none;
+    padding: 10px;
+}

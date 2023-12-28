@@ -1,0 +1,27 @@
+.checkboxContainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.checkboxLeftContainer{
+    width: 40%;
+}
+
+.checkboxRightContainer{
+    width: 50%;
+}
+
+.innerItem{
+    width: 100%;
+    margin: 15px;
+}
+
+.playersNames{
+    font-size: 20px
+}
+
+input[type="checkbox"]{
+    height: 18px;
+    width: 18px;
+    border-radius: 5px;
+}
